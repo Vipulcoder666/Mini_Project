@@ -10,7 +10,7 @@ function Header() {
             <li className='hover:font-bold cursor-pointer'>About us</li>
             <li className='hover:font-bold cursor-pointer'>Contact us</li>
         </ul>
-        <button className='bg-red-500 rounded-full text-white '>suscribe</button>
+        <button className='bg-red-500 rounded-full text-white'>suscribe</button>
     </div>
   )
 }
