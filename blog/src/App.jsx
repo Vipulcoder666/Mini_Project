@@ -3,7 +3,9 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './Pages/Home'
-import Blog from './Components/Blogs'
+import Admin from './Components/Admin'
+import Charity from './Components/Charity'
+import Doner from './Components/Doner'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +13,9 @@ function App() {
   return (
     <>
      <Home/>
+     <Admin/>
+     <Charity/>
+     <Doner/>
     </>
     
   )
