@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Doner() {
+function NGOs() {
   return (
     <div></div>
   )
 }
 
-export default Doner
+export default NGOs

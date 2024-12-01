@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Admin() {
+function Doners() {
   return (
     <div></div>
   )
 }
 
-export default Admin
+export default Doners

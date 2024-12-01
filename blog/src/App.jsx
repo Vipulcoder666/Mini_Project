@@ -2,22 +2,22 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Home from './Pages/Home'
+import NGOs from './Components/NGOs'
+import Doners from './Components/Doners'
+import Admins from './Components/Admins'
+import Campagins from './Components/Campagins'
 import Header from './Components/Header'
-import Admin from './Components/Admin'
-import Charity from './Components/Charity'
-import Doner from './Components/Doner'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-     <Home/>
      <Header/>
-     <Admin/>
-     <Charity/>
-     <Doner/>
+     <NGOs/>
+     <Doners/>
+     <Admins/>
+     <Campagins/>     
     </>
     
   )

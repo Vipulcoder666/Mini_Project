@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Charity() {
+function Campagins() {
   return (
     <div></div>
   )
 }
 
-export default Charity
+export default Campagins
