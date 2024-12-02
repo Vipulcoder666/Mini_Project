@@ -6,8 +6,43 @@ import Transparency from "../assets/Transparency.webp";
 const LandingPage = () => {
   return (
     <div className="min-h-screen bg-gradient-to-r from-blue-50 via-white to-blue-50">
+     
+      {/* Navbar */}
+      {/* Navbar */}
+      <nav className="fixed top-0 left-0 w-full z-50 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 bg-opacity-95 shadow-lg">
+  <div className="container mx-auto px-6 py-4 flex items-center justify-between">
+    {/* Logo */}
+    <div className="text-white font-bold text-2xl hover:scale-105 transition-transform duration-300">
+      <a href="/">Donation Platform</a>
+    </div>
+    
+    {/* Navigation Links */}
+    <div className="flex space-x-8">
+      <a
+        href="/WhatWeDo"
+        className="text-white font-medium hover:text-yellow-400 transition-colors duration-300 hover:scale-105"
+      >
+        What We Do
+      </a>
+      <a
+        href="/AboutUs"
+        className="text-white font-medium hover:text-yellow-400 transition-colors duration-300 hover:scale-105"
+      >
+        About Us
+      </a>
+      <a
+        href="/ContactUs"
+        className="text-white font-medium hover:text-yellow-400 transition-colors duration-300 hover:scale-105"
+      >
+        Contact Us
+      </a>
+    </div>
+  </div>
+</nav>
+
+
       {/* Hero Section */}
-      <header className="bg-gradient-to-r from-indigo-700 to-indigo-900 text-white">
+      <header className="bg-gradient-to-r from-indigo-700 to-indigo-900 text-white pt-20">
         <div className="container mx-auto px-6 py-16 text-center lg:text-left">
           <div className="lg:flex items-center justify-between">
             <div className="lg:w-1/2">
@@ -19,11 +54,10 @@ const LandingPage = () => {
                 lives and empower communities.
               </p>
               <div className="mt-8 flex flex-wrap justify-center lg:justify-start gap-4">
-
-                {/* Donate Now */}
-                <a href="/DonatePage"><button className="bg-white text-indigo-700 font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 transition duration-300">
-                  Donate Now
-                </button>
+                <a href="/DonatePage">
+                  <button className="bg-white text-indigo-700 font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 transition duration-300">
+                    Donate Now
+                  </button>
                 </a>
                 <button className="bg-indigo-800 py-3 px-8 rounded-full shadow-lg text-white hover:bg-indigo-900 transition duration-300">
                   Learn More
@@ -42,7 +76,10 @@ const LandingPage = () => {
       </header>
 
       {/* Features Section */}
-      <section className="py-16 bg-gradient-to-b from-white to-gray-100">
+      <section
+        id="what-we-do"
+        className="py-16 bg-gradient-to-b from-white to-gray-100"
+      >
         <div className="container mx-auto px-6">
           <h2 className="text-3xl lg:text-4xl font-bold text-center text-gray-800">
             Why Donate with Us?
@@ -95,26 +132,28 @@ const LandingPage = () => {
       </section>
 
       {/* Call-to-Action Section */}
-      <section className="bg-gradient-to-r from-indigo-600 to-indigo-800 text-white py-16">
+      <section
+        id="about-us"
+        className="bg-gradient-to-r from-indigo-600 to-indigo-800 text-white py-16"
+      >
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold">
-            Ready to Make a Difference?
-          </h2>
+          <h2 className="text-4xl font-bold">Ready to Make a Difference?</h2>
           <p className="mt-4 text-lg lg:text-xl">
             Your support means everything. Start your journey with us today.
           </p>
-
           <a href="/DonatePage">
-          <button className="mt-8 bg-white text-indigo-700 font-semibold py-3 px-12 rounded-full shadow-lg hover:bg-gray-100 transition duration-300">
-            Donate Now
-          </button>
+            <button className="mt-8 bg-white text-indigo-700 font-semibold py-3 px-12 rounded-full shadow-lg hover:bg-gray-100 transition duration-300">
+              Donate Now
+            </button>
           </a>
-
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-800 text-gray-300 py-8">
+      <footer
+        id="contact-us"
+        className="bg-gray-800 text-gray-300 py-8"
+      >
         <div className="container mx-auto px-6 text-center">
           <p className="text-sm">
             &copy; 2024 Donation Platform. All Rights Reserved.
