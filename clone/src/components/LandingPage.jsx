@@ -2,6 +2,7 @@ import React from "react";
 import one from "../assets/one.avif";
 import Trustworthy from "../assets/Trustworthy.webp";
 import Transparency from "../assets/Transparency.webp";
+import impactful from "../assets/impactful.avif";
 
 const LandingPage = () => {
   return (
@@ -103,7 +104,7 @@ const LandingPage = () => {
             </div>
             <div className="p-8 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105">
               <img
-                src={Trustworthy}
+                src={impactful}
                 alt="Impactful"
                 className="w-20 h-20 mx-auto"
               />

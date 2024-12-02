@@ -1,7 +1,10 @@
 import React from "react";
-import missionImage from "../assets/two.webp"; // Replace with your actual image path
-import visionImage from "../assets/two.webp"; // Replace with your actual image path
-import teamImage from "../assets/two.webp"; // Replace with your actual image path
+import mission from "../assets/mission.avif"; // Replace with your actual image path
+import vision from "../assets/vision.avif"; // Replace with your actual image path
+import teamImage from "../assets/linkedin.jpeg"; // Replace with your actual image path
+import prince from "../assets/prince.jpg"; // Replace with your actual image path
+import sumit from "../assets/sumit.png"; // Replace with your actual image path
+import tulsi from "../assets/tulsi.jpg"; // Replace with your actual image path
 
 const AboutUs = () => {
   return (
@@ -21,7 +24,7 @@ const AboutUs = () => {
         <div className="container mx-auto px-6 lg:flex items-center">
           <div className="lg:w-1/2">
             <img
-              src={missionImage}
+              src={mission}
               alt="Our Mission"
               className="rounded-lg shadow-lg"
             />
@@ -54,7 +57,7 @@ const AboutUs = () => {
           </div>
           <div className="lg:w-1/2 mt-8 lg:mt-0">
             <img
-              src={visionImage}
+              src={vision}
               alt="Our Vision"
               className="rounded-lg shadow-lg"
             />
@@ -81,44 +84,44 @@ const AboutUs = () => {
             className="w-32 h-32 mx-auto object-cover rounded-full border-4 border-gray-300 hover:border-indigo-600 transition duration-300"
           />
         </div>
-        <h3 className="text-xl font-semibold mt-6">John Doe</h3>
-        <p className="mt-2 text-gray-600">Founder & CEO</p>
+        <h3 className="text-xl font-semibold mt-6">Vipul Shrivastav</h3>
+        <p className="mt-2 text-gray-600">Team Lead and Developer</p>
       </div>
       {/* Team Member 2 */}
       <div className="p-6 bg-white rounded-lg shadow-lg transform hover:scale-105 transition duration-300">
         <div className="relative">
           <img
-            src={teamImage}
+            src={tulsi}
             alt="Team Member"
             className="w-32 h-32 mx-auto object-cover rounded-full border-4 border-gray-300 hover:border-indigo-600 transition duration-300"
           />
         </div>
-        <h3 className="text-xl font-semibold mt-6">Jane Smith</h3>
-        <p className="mt-2 text-gray-600">Head of Operations</p>
+        <h3 className="text-xl font-semibold mt-6">Tulsi Gupta</h3>
+        <p className="mt-2 text-gray-600"> Developer</p>
       </div>
       {/* Team Member 3 */}
       <div className="p-6 bg-white rounded-lg shadow-lg transform hover:scale-105 transition duration-300">
         <div className="relative">
           <img
-            src={teamImage}
+            src={prince}
             alt="Team Member"
             className="w-32 h-32 mx-auto object-cover rounded-full border-4 border-gray-300 hover:border-indigo-600 transition duration-300"
           />
         </div>
-        <h3 className="text-xl font-semibold mt-6">Emily Johnson</h3>
-        <p className="mt-2 text-gray-600">Community Manager</p>
+        <h3 className="text-xl font-semibold mt-6">Prince Sharma</h3>
+        <p className="mt-2 text-gray-600">Developer</p>
       </div>
       {/* Team Member 4 */}
       <div className="p-6 bg-white rounded-lg shadow-lg transform hover:scale-105 transition duration-300">
         <div className="relative">
           <img
-            src={teamImage}
+            src={sumit}
             alt="Team Member"
             className="w-32 h-32 mx-auto object-cover rounded-full border-4 border-gray-300 hover:border-indigo-600 transition duration-300"
           />
         </div>
-        <h3 className="text-xl font-semibold mt-6">Michael Brown</h3>
-        <p className="mt-2 text-gray-600">Marketing Strategist</p>
+        <h3 className="text-xl font-semibold mt-6">Sumit Pal</h3>
+        <p className="mt-2 text-gray-600">Content Creater</p>
       </div>
     </div>
   </div>

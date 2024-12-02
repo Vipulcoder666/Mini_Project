@@ -1,10 +1,10 @@
 import React from "react";
 // import impactImage from "../assets/impact.jpg";
-import educationImage from "../assets/two.webp";
-import healthcareImage from "../assets/two.webp";
-import communityImage from "../assets/two.webp";
-import innovationImage from "../assets/two.webp";
-import environmentImage from "../assets/two.webp";
+import education from "../assets/education.webp";
+import healthcare from "../assets/healthcare.webp";
+import community from "../assets/community.avif";
+import innovation from "../assets/innovation.webp";
+import environment from "../assets/environment.webp";
 
 const WhatWeDo = () => {
   return (
@@ -36,7 +36,7 @@ const WhatWeDo = () => {
           {/* Card 1 */}
           <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105 p-6 text-center">
             <img
-              src={educationImage}
+              src={education}
               alt="Education"
               className="w-full rounded-lg mb-4"
             />
@@ -50,7 +50,7 @@ const WhatWeDo = () => {
           {/* Card 2 */}
           <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105 p-6 text-center">
             <img
-              src={healthcareImage}
+              src={healthcare}
               alt="Healthcare"
               className="w-full rounded-lg mb-4"
             />
@@ -65,7 +65,7 @@ const WhatWeDo = () => {
           {/* Card 3 */}
           <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105 p-6 text-center">
             <img
-              src={communityImage}
+              src={community}
               alt="Community Building"
               className="w-full rounded-lg mb-4"
             />
@@ -86,7 +86,7 @@ const WhatWeDo = () => {
           {/* Card 4 */}
           <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105 p-6 text-center">
             <img
-              src={innovationImage}
+              src={innovation}
               alt="Innovation"
               className="w-full rounded-lg mb-4"
             />
@@ -100,7 +100,7 @@ const WhatWeDo = () => {
           {/* Card 5 */}
           <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105 p-6 text-center">
             <img
-              src={environmentImage}
+              src={environment}
               alt="Environment"
               className="w-full rounded-lg mb-4"
             />
