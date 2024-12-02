@@ -1,6 +1,6 @@
 import React from "react";
 
-const ThankYouPage = ({ name = "John Doe", amount = 50 }) => {
+const ThankYouPage = ({ name = "Vipul Shrivastav", amount = 50 }) => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-blue-50 to-indigo-100">
       <div className="max-w-lg w-full bg-white shadow-xl rounded-lg overflow-hidden">
